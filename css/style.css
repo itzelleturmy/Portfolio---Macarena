@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+header a {
+  text-decoration: none; }
+  header a h1 {
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    size: 50px; }
+
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  list-style: none;
+  color: black; }
+  header nav ul li {
+    color: black;
+    list-style: none;
+    padding: 5px; }
+    header nav ul li a {
+      color: black;
+      padding: 5px; }
+
+footer .branding {
+  text-align: center;
+  text-overflow: 300px; }
+
+footer .logoIg {
+  float: right;
+  width: 30px;
+  height: 30px; }
+
+footer .logoSpotify {
+  float: right;
+  width: 30px;
+  height: 30px; }
+
+main {
+  background-color: white; }
+  main img {
+    width: 100%; }
+  main .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px; }
+  main .column {
+    flex: 33%;
+    padding: 5px; }
+    main .column img {
+      margin-top: 5px; }
+
+@media (min-width: 300px) and (max-width: 768px) {
+  main .img {
+    width: 70%; }
+  main .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px; }
+  main .column {
+    flex: 100%; } }
+
+@media (min-width: 768px) and (max-width: 940px) {
+  main .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px; }
+  main .column {
+    flex: 50%; } }
+
+form {
+  margin: auto;
+  background-color: white;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  font-family: "Times New Roman", Times, serif; }
+
+h2 {
+  color: black;
+  text-align: left;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px; }
+
+input {
+  width: 60%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none; }
+
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding-top: 35px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+  text-align-last: left; }
+
+#Button {
+  background-color: rgba(69, 69, 69, 0.081);
+  padding: 5px;
+  width: 100px;
+  float: left; }
+
+#Button #Button:hover {
+  cursor: pointer; }
+
+.galponDeRopa {
+  text-align: start;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  .galponDeRopa img {
+    padding: 15px; }
+
+.textoAboutMe {
+  background-color: white;
+  padding: 5px;
+  font-size: 30px;
+  text-align: left;
+  letter-spacing: 1px;
+  line-height: 50px; }
+  .textoAboutMe p {
+    padding: 10px; }

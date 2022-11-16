@@ -1,0 +1,30 @@
+header{
+    a{
+        text-decoration: none;
+        h1 {
+            margin-top: 10px;
+            text-decoration: none;
+            color: $color-texto-primario;
+            size: 50px;
+        }
+    }
+    nav{
+        ul{        
+            display: flex;
+            justify-content: flex-end;
+            align-items:flex-end;
+            list-style: none;
+            color: $color-texto-primario;
+                li{
+                    color: $color-texto-primario;
+                    list-style: none;
+                    padding: 5px;
+                    a{
+                        color: $color-texto-primario;
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+}
+
